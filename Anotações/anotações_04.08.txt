@@ -1,0 +1,48 @@
+Titulos e textos 
+
+<h1> o mais importante </h1> titulo 
+<h2> segundo mais importante </h2>
+<h3> </h3>
+
+<h6> </h6> menor titulo 
+
+as importancia dos titulos são decresente. 
+
+<span> </span> = o span basicamente é utilizado só para algum texto sem importancia alguma "texto jogado".
+
+<I> fonte italico. 
+<b> fonte Bolde, negrito.
+
+<p></p> paragrafos.....
+
+<br> quebra linha. 
+
+<div>
+            <H1> voltando a estudar </H1>
+            <h2> programação e ingles ainda tem afaculdade e a cademia</h2>
+
+            <span> acontece tudo isso tem que acontecer de alguma forma <br> <i> fique triste nunca </i> </span>
+            <p> a  vida é uma loucura 
+                
+            </p>
+         </div>
+
+Formularios:
+
+Tag label vai se considerada o titulo para input. 
+
+<form>
+       <label for="Email">Email</label>
+
+</form>
+
+Dentro de uma Label teremos uma Tag "FOR", nesssa tag vamos passar o ID que queremos atribuir para essa tag. 
+
+    <label for="Email">Email</label>
+        <input style="display: block" id="Email" type"email" name="Email" placeholder="coloque um Email, apenas do gmail">
+
+style="display: block" = cria um bloco para inserir o valor
+id="Email" = é o valor do for.
+name="Email" = nome da label.
+Placeholder= e a frase que vai aparecer antes de insirir algo dentro do display:block.
+type= email

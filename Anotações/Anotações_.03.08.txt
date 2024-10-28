@@ -1,0 +1,79 @@
+Doctype > indica para o navegador qual e a versão do Html que está sendo utilizado.
+
+
+<html lang="en"> lingagem.
+    <head> *cabeça do codigo* Tag não visuais 
+        <meta charset="UTF-8"> *acentuação* 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estudo anotação 1°</title>
+    </head>
+    <body> 
+ 	Corpo do codigo - Tag visuais      
+    </body>
+</html>
+
+Extensões VS-Code.
+
+Cor - Atom One Dark Theme 
+Icone de pastas - material icon theme
+
+Atributos das Tag:
+
+<div> divisão qualquer sessão </div>
+
+<div class= "primeira"> 
+	</div>
+
+A tag id ela é uma tag especifica, pois cada id tera um valor unico atribuido dentro desta Tag. Sendo assim, o valor não se repete.
+ 
+exemplo: <div class= "segunda" Id= "treino" <\div>
+ 
+style= "BACKGROUND-COLOR:RED"
+
+	Dentro de uma Tag div 
+
+<div class= "terceira" id="preto" style="background-color: red"> </div>
+
+Atributos:  
+Class: atribui uma classe ao elemento, ou seja, uma class pode ser utilizada um ou mais elementos. 
+Id: atribui um elemento unico.
+Style: é o elemento que pode incluir o CSS dentro da tag.
+Lang: linguagem do codigo. 
+Title: titulo.
+Alt:um title alternativo, utilizado em imagens. 
+hidden: Oculta elementos.
+Aling: define padrão de alinhamento.
+Width: Define a largura do elemento.
+Height: Define altura do elemento.
+
+Segunda parte do estudo depois da pausa de 20 minutos;
+
+Tags e Estruturas:
+
+essas Tags são utilizadas na parte do body, com isso, são as tag que podemos ver ou seja são as tags visuais. 
+
+Header: Construção do cabeçalho do Site. 
+Main: Conteudo principal do site.
+Article: Define o artigo da pagina e separa o conteudo da pagina ex: separação em topico em blogs.
+Nav: Navegação > geralmente fica dentro do Header. 
+Aside: conteudo parecido> paralelo
+Footer:rodapé do site.
+Div: Divisão qualquer sessão
+
+Ul: lISTA NÃO ORDENADA, basicamente não existe uma ordem.
+Ol: Lista ordenada, LEVA EM CONSIDERAÇÃO OS ITENS DA LISTA.
+lI: DEFINE UM INTEM DA LISTA
+
+Exemplo de header atribuido com  unma navegação e com uma lista não ordernada, porém com intens unicos selecionados: 
+
+ <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>elenco</li>
+                <li>ux</li>
+            </ul>
+        </nav>
+     </header> 
+**
+ 

@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    
+}
+body{
+    background-color: #000
+}
+
+header{
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  background: #000;
+}
+
+nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    width:100% ;
+    justify-content: space-around;
+}
+li{
+    padding-top:  20px; 
+    list-style: none;
+    color:rgb(175, 190, 204) 
+    cursor pointer ;
+    font-size: 19px;
+    transition: .5s ;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+
+li:hover {
+  color: red;
+}
+
+.fotos-geral{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container-fotos{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+
+}
+.card:hover{
+    transform: scale(1.02);
+}
+
+.fotos-1{
+    background-image: url("https://f.i.uol.com.br/fotografia/2020/08/17/15976969175f3aeb95e54c8_1597696917_1x1_md.jpg")
+}
+.fotos-2{
+    background-image: url("https://rollingstone.com.br/media/uploads/2023/11/amazon-prime-video-divulga-posteres-e-previsao-de-estreia-da-4a-temporada-de-the-boys-foto-divulgacaoamazon-prime-video.jpg")
+}
+
+.fotos-3{
+    background-image:url("https://sm.ign.com/ign_br/screenshot/default/butcher-clean-rgb_8snc.jpg")
+}
+.fotos-4{
+    background-image:url("https://br.web.img3.acsta.net/pictures/19/07/09/14/34/1532536.jpg?coixp=57&coiyp=52")
+}
+.fotos-5{
+    background-image:url("https://media04.serienfuchs.de/article/2022/07/08/8/43548_L.jpg?1657290243")
+}
+.fotos-6{
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2023/11/the-name-of-the-game-4.jpg");
+}
+
+.fotos-7{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ6GKWhKeUlbo1WcKbcecLQECvq63IvEQD5yXM2YbnlX_SuG1jFwTnkLkaUB9VyZM0eIc&usqp=CAU");
+}
+
+.fotos-8{
+    background-image: url("https://img.odcdn.com.br/cdn-cgi/image/width=960,height=1200,fit=cover/wp-content/uploads/2021/03/The-Boys-serie-de-super-herois-da-Amazon-e-renovada-para-terceira-temporada.jpg")
+}
+.fotos-9{
+    background-image: url("https://portalperifacon.com/wp-content/uploads/2022/06/The-Boys-bastidores-1024x671-1.jpg")
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+ }
+ span{
+     color: #fff;
+     font-family: 'kdam thmor pro', sans-serif;
+ 
+ }
+ 
+ .footer-navigation{
+     display: none;
+ 
+ }
+ 
+ .fotter-list{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 

@@ -1,0 +1,23 @@
+Tag de midias
+
+tag de audio, imagem e videos no HTML.
+
+tag SRC basicamente é uma tag para esportar a imagem ou o video. 
+para imagens 
+
+<img> srd="./imagem.jpg"</img>
+
+<video controls style = >
+	<source src = "./video" type= "mp3"
+
+ proxima aula 
+
+tag's Style, script e âncora.
+
+Style chama o codigo css, para estilisar.
+
+Script da a opção de chamar o jvs para o codigo.
+
+Ancora navega sobre as paginas "Href" 
+
+Estou muito cansada :/

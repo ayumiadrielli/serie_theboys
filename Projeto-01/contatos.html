@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contatos</title>
+    <link href="./contato.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <img id="logo" src="./logo01.png"/>
+        <nav>
+             <ul>
+               <a href="./index.html">
+                  <li>home</li>
+                </a>
+    
+                 <a href="./contato.html">
+                  <li>contato</li>
+                 </a>
+    
+                 <a href="./fotos.html">
+                   <li>fotos</li>
+                 </a>
+             </ul>
+       
+        </nav>
+        </header>
+       
+      <div id="cadastro">
+        <h1 id="titulo"><strong> Cadastro dos bruxos</strong></h1>
+        <br>
+        <p id="subtitulo"> <strong>complete suas informações</strong></p>
+        <br>
+      </div>
+      <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="nome" <strong>nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div>
+                <label for="sobrenome"<strong>sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome"required>
+            </div>
+        </fieldset>
+         <div class="campo">
+            <label for="email"<strong>Email</strong></label>
+            <input type="email" name="email" id="email"required>
+         </div>
+          <div class="campo">
+            <label>De qual casa você é ?</label><br>
+            <label>
+                <input type="radio" nome="casa" value=" Grifinória" >Grifinória
+            </label>
+            <label>
+                <input type="radio" nome="casa" value=" Corvinal">Corvinal
+            </label>
+            <label>
+                <input type="radio" nome="casa" value=" Lufa-Lufa">Lufa-Lufa
+            </label>
+            <label>
+                <input type="radio" nome="casa" value=" Sonserina">Sonserina
+            </label>
+          </div>
+          <div class="campo">
+            <label for="senoridade"> <strong>senioridade</strong></label>
+             <select>
+                <option selected disabled value="">escolha</option>
+                <option>N.O.M S - níveis ordianários de magia </option>
+                <option>N.I.E.M S - níveis incrivelmente exautivos de magia</option>
+             </select>
+
+          </div>
+
+          <div class="campo"> 
+            <br>
+            <label> <strong>um pouco do que você mais gosta na saga de harry potter</strong> </label>
+            <textarea row="6" style="width:26em"  id="experiencia" name="esperiencia"></textarea>
+          </div>
+          <button class="botão" type="submit">concluído</button>
+      </form>
+
+      
+
+     <footer>
+      <img style="object-fit: contain";  id="logo" src="./logo01.png"/>
+      <span> Todos os direitos reservados ©</span>
+      <span>Desenvolvido por: Ayumi Adrielle</span>
+      <nav class="footer-navigation">
+        <ul class="footer-list">
+          <a href="./index.html">
+             <li>home</li>
+           </a>
+
+            <a href="./contato.html">
+             <li>contato</li>
+            </a>
+
+            <a href="./fotos.html">
+              <li>fotos</li>
+            </a>
+
+           
+        </ul>
+   </nav>
+
+     </footer>
+</body>
+</html>
